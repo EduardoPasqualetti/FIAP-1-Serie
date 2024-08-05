@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16C0DCF7-638C-41EC-09FC-57BDA653461E" name="T_Cidadao">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:57:01 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cidadao" id="77C208EF-1271-BA96-A5E8-316857B2CBF4">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:57:19 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidadao" id="76611D14-E4FC-CFE2-A224-6BCEF6CE74FA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:57:36 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="63CA97D7-2395-EB3F-BD9E-76A96156B58D">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:57:41 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECEE57FA-3F2B-5C06-889B-A40DB4DDFB67" name="T_Cidadao PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:57:35 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77C208EF-1271-BA96-A5E8-316857B2CBF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

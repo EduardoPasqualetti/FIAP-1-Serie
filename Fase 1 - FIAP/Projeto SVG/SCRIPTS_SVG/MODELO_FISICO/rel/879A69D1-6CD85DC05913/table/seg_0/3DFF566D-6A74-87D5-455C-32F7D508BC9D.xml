@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DFF566D-6A74-87D5-455C-32F7D508BC9D" name="T_SVG_VIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o video relacionado a um produto]]></comment>
+<generatorID>D1B8389A-49EA-BFD8-9FFF-F09FE58AF25C</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<ordsAlias>t_svg_videos</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_video" id="DE5C0D35-1B1D-050C-14A3-B4DFD38512D4">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>70613B01-E19C-23A3-D9C7-626700B8DA5E</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_produto" id="4382C949-90AA-640B-CA9C-F8DDED9DCF3F">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>B32C8973-07C8-844F-9D7B-E9AFC94E1B0F</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C9619B8-8C49-2476-D70A-36A0635696F8" referredColumn="4F9D0E5B-8A43-5C77-75EF-6BECC2BDE596"/>
+</associations>
+</Column>
+<Column name="cd_tipo_video" id="655E55F2-3A8D-80F7-BCDA-240BF31DB141">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>5EBCCB23-FF96-C638-054E-324611C86DF4</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD50E4C6-C040-A035-0B48-541DDFE38134" referredColumn="2620220D-7A68-268E-AE5C-3E8651ED4BDF"/>
+</associations>
+</Column>
+<Column name="nm_video" id="E67E0026-2781-95E1-ACA7-E67711075399">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>682F32C2-7796-8E03-7690-C95A8AA87B37</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="7F1CFF95-D087-2BC7-3656-A530546235D9">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>AAAEAC1C-9BE0-20F7-D00A-D12A7AAF9B36</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_video" id="2DE3F6E6-C0BD-0BEE-BAAC-CE48B3DAE6D1">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>6974EBB6-A425-3639-9200-FE625279CFBA</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82B0F521-D295-17B8-434E-0612CF70C5A7" name="PK_SVG_VIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>1F49FB3E-A67A-5BF4-A028-18960353BCB1</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE5C0D35-1B1D-050C-14A3-B4DFD38512D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E4699C3-6C2A-BA97-2535-ABF390C00D0E" name="FK_SVG_VIDEO_TIPOVIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>933BA545-BE5F-57F7-B1C6-2431F63E16A1</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655E55F2-3A8D-80F7-BCDA-240BF31DB141"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AEAE459-311E-56C2-ED29-EF747A5C3803" name="FK_SVG_VIDEO_PROD">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>8BE6E8B6-CC9A-1D04-1BF5-90677F465884</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4382C949-90AA-640B-CA9C-F8DDED9DCF3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SVG_VIDEO_STATUS" directorySegmentName="seg_0" id="8DA0F32F-87CD-480F-0CBD-7417D481FCC2">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 22:08:33 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<rule><![CDATA[st_video IN ('A','I')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

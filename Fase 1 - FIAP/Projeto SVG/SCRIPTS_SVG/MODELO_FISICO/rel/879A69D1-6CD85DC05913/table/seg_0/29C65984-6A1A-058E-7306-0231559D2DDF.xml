@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29C65984-6A1A-058E-7306-0231559D2DDF" name="T_SVG_AVALIACAO_PRODUTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade  adicional que representa a avaliacao que um cliente deixa sobre um produto]]></comment>
+<generatorID>C701D3B7-BB15-35F2-467D-F0EDB0DBECA1</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_avaliacao" id="1B0A7265-AF05-0315-3C68-3D2192938736">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o codigo da avaliacao de produto]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o codigo da avaliacao de produto, chave primaria]]></commentInRDBMS>
+<generatorID>EA609A8E-2B96-FF49-9290-573E2E273B21</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="CFABA1AC-5519-2010-917E-5C695E7D3C2B">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o codigo do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o codigo do cliente]]></commentInRDBMS>
+<generatorID>4F1AD0CE-9D8D-E411-DAAE-BF7912D1963B</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C156585-146D-09D3-DFF6-F60C58A051A1" referredColumn="A71E3FDB-47F1-8419-FF95-E8014F315386"/>
+</associations>
+</Column>
+<Column name="cd_produto" id="864F37A2-DF10-1310-6E8B-9113D426BA75">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o codigo do produto]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o codigo do produto]]></commentInRDBMS>
+<generatorID>C478DE10-190B-3C9B-E69F-DC18EECC1A29</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91585F3D-C7F8-D2B9-FA2D-AE2C7A7E92A9" referredColumn="4F9D0E5B-8A43-5C77-75EF-6BECC2BDE596"/>
+</associations>
+</Column>
+<Column name="dt_hr_avaliacao" id="52451070-3996-C471-F9CC-8595294F6842">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa a data e a hora que foi feita a avaliacao,  obrigatorio]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa a data e a hora que foi feita a avaliacao,  obrigatorio]]></commentInRDBMS>
+<generatorID>7E78C1E9-E862-E1F4-EC74-614665BEC092</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_estrelas" id="2290235D-6169-7F20-5AC9-8F13945B1E5C">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o indice de estrelas pelo cliente, obrigatorio]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o indice de estrelas pelo cliente, obrigatorio]]></commentInRDBMS>
+<generatorID>D5934E43-F495-E878-EF95-4FACCEC0F145</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_comentario" id="00B0F689-0F11-C6CD-0E1A-CFF400BA935E">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>4D278A6D-F73E-ED95-FADA-7B5355637A9C</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03DBC848-80E4-FD63-7ED5-7B21D7E9E758" name="PK_SVG_AVALIACAO_PRODUTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>894C5EFD-1540-CB84-D9BC-EF2D1BBFB587</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B0A7265-AF05-0315-3C68-3D2192938736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03F2D629-B92A-4E49-1DCB-23ADEF53B092" name="FK_SVG_AVALPROD_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>9337F8CA-3165-04E1-87DA-CDB14077502C</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFABA1AC-5519-2010-917E-5C695E7D3C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C24830EE-D472-8F65-5328-65253226D8F8" name="FK_SVG_AVALPROD_PROD">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>8D57ADC2-2E53-1D91-08B6-E3BAE264D6C4</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="864F37A2-DF10-1310-6E8B-9113D426BA75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

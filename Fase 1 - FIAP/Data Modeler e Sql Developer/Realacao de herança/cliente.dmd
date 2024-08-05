@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cliente" id="ADC5FD30-C802-A99D-2E33-0EB8A623CD12" version="3.5">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:10:52 UTC</createdTime>
+<ownerDesignName>cliente</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ADC5FD30-C802-A99D-2E33-0EB8A623CD12</designId>
+</OSDM_Design>

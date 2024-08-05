@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0821EE56-8FEC-7E52-E8F6-0D64419DB496">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:12:12 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

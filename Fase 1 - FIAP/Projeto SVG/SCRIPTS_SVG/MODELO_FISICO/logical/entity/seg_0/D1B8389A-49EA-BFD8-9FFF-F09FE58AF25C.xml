@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1B8389A-49EA-BFD8-9FFF-F09FE58AF25C" name="T_SVG_VIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:29:52 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o video relacionado a um produto]]></comment>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_video" id="70613B01-E19C-23A3-D9C7-626700B8DA5E">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:30:08 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="B32C8973-07C8-844F-9D7B-E9AFC94E1B0F">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:33:58 UTC</createdTime>
+<generatorID>8BE6E8B6-CC9A-1D04-1BF5-90677F465884</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>BF9ECA2A-0005-C90E-23D4-2E47CB691F6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_video" id="5EBCCB23-FF96-C638-054E-324611C86DF4">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:45:35 UTC</createdTime>
+<generatorID>933BA545-BE5F-57F7-B1C6-2431F63E16A1</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>D1D00FDB-6A28-CF00-4D8B-47D19EC99445</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_video" id="682F32C2-7796-8E03-7690-C95A8AA87B37">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:30:15 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro" id="AAAEAC1C-9BE0-20F7-D00A-D12A7AAF9B36">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:30:25 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_video" id="6974EBB6-A425-3639-9200-FE625279CFBA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:30:34 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F49FB3E-A67A-5BF4-A028-18960353BCB1" name="T_SVG_VIDEOS PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:30:13 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70613B01-E19C-23A3-D9C7-626700B8DA5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

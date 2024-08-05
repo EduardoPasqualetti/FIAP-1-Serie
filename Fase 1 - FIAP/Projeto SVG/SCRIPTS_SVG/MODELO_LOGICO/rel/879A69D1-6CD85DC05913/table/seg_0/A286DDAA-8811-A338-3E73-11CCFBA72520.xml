@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A286DDAA-8811-A338-3E73-11CCFBA72520" name="T_SVG_DEPARTAMENTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o departamento, onde todo funcionario deve ser vinculado a um]]></comment>
+<generatorID>6E815AEB-A14E-7F44-45EB-A5388F5C4104</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="24A97CC6-C645-41EA-84D1-D4BEC0DA2C16">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>AF4E8602-5FCD-DCF0-6630-542C60C252C9</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_depto" id="477BF03E-FF8B-6ED2-D6EC-770C20A7346F">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>D9D6E896-4367-2301-7658-3412E8D67588</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_depto" id="ABF6DDBD-3405-8657-B8E8-0E59CC56D046">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>3A0F068C-DD46-E32A-F4C6-86F07AD788DF</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2611EF7B-4F4A-9B5E-B8F6-3B7A9B68585C" name="PK_SVG_DEPTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>8ED3062A-B834-EB23-B988-180A22BD2528</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24A97CC6-C645-41EA-84D1-D4BEC0DA2C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

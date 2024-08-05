@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BEA2D9A-DAF5-D390-8D3E-E97424BB31AD" name="T_CNH">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:58:19 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_registro" id="E4F729C4-7681-CF0B-9A6D-C2E6E399964F">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:58:39 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidadao" id="BAC788D5-656D-7B20-FB80-0F6555044C89">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:59:15 UTC</createdTime>
+<generatorID>CB7AEB12-44F6-2ABD-C66F-9B03781DDA5C</generatorID>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<referedAttribute>77C208EF-1271-BA96-A5E8-316857B2CBF4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="207DDB2B-B94C-F569-1B5A-DFCDB54F3515">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:58:47 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43EF8D5A-16C3-2941-3A18-8130E042E8A1" name="T_CNH PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:58:46 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4F729C4-7681-CF0B-9A6D-C2E6E399964F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

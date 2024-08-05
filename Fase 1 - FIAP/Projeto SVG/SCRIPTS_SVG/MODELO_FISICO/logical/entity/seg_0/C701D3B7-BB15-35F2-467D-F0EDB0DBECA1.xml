@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C701D3B7-BB15-35F2-467D-F0EDB0DBECA1" name="T_SVG_AVALIACAO_PRODUTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:24:08 UTC</createdTime>
+<comment><![CDATA[Entidade  adicional que representa a avaliacao que um cliente deixa sobre um produto]]></comment>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_avaliacao" id="EA609A8E-2B96-FF49-9290-573E2E273B21">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:24:59 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="4F1AD0CE-9D8D-E411-DAAE-BF7912D1963B">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:30:12 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria que indica o codigo do cliente]]></comment>
+<generatorID>9337F8CA-3165-04E1-87DA-CDB14077502C</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>7360C934-80F1-E131-7284-98F1568C29FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="C478DE10-190B-3C9B-E69F-DC18EECC1A29">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:30:28 UTC</createdTime>
+<generatorID>8D57ADC2-2E53-1D91-08B6-E3BAE264D6C4</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>BF9ECA2A-0005-C90E-23D4-2E47CB691F6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_avaliacao" id="7E78C1E9-E862-E1F4-EC74-614665BEC092">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:25:24 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_estrelas" id="D5934E43-F495-E878-EF95-4FACCEC0F145">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:26:02 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_comentario" id="4D278A6D-F73E-ED95-FADA-7B5355637A9C">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:26:40 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="894C5EFD-1540-CB84-D9BC-EF2D1BBFB587" name="T_SVG_AVALIACAO_PRODUTO PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:25:21 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA609A8E-2B96-FF49-9290-573E2E273B21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E670E4C-BDC5-A5FA-6C8B-D98D708F9313" name="T_SVG_FUNCIONARIO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:10:11 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o funcionario]]></comment>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_funcionario" id="DBCBAEB1-996F-742B-54F0-AC7F594104ED">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:56:24 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_depto" id="8D916D33-4AFB-E827-F3BD-27A16E09E374">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:59:59 UTC</createdTime>
+<generatorID>91EC9B0D-3538-B910-6662-F120DFAB0649</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>AF4E8602-5FCD-DCF0-6630-542C60C252C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="EBF98B19-5C67-282E-C391-6E1FDB4BC321">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:56:30 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="7756828C-7646-69A0-87B1-8DBDA14B3E7E">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:56:41 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="9BE702B5-32C1-D954-4617-F4104677EEAC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:56:46 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cargo" id="2FAB67DF-2226-3619-E13A-113E6A1FC64F">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:57:57 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB674E47-1B61-FF4A-1A4A-E5CEACEBD52E" name="T_SVG_FUNCIONARIO PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:56:28 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBCBAEB1-996F-742B-54F0-AC7F594104ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

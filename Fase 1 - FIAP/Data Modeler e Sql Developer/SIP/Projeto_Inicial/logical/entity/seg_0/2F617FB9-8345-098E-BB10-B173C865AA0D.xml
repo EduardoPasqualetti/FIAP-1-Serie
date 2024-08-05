@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F617FB9-8345-098E-BB10-B173C865AA0D" name="T_SIT_FUNCIONARIO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:25:07 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="4B25417F-2EA8-E9D3-B32E-0C78E493D9F1">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:25:14 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_departamento" id="7B61A950-2DFE-A8BF-EB71-6D65338216C0">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:39:22 UTC</createdTime>
+<generatorID>015355A7-FCEA-A3AB-255F-A5553EB15538</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<referedAttribute>FA1B2749-FFF6-85AF-870C-AE64C650C2F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="A3A2DEE2-1208-943D-9A96-5AFFEAA221B3">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:25:54 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="E7E50D15-A5AA-3B3D-1B00-7B28874FA75D">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:26:05 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="00B4817F-9020-0E88-7A86-5F44BC148CDD">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:26:12 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="356334C7-EA1A-1114-7C95-DBAEE2C6E546">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:44:41 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="DF456922-C4FB-3A01-8906-A8881C0A9AAA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:44:57 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="682146F3-EC24-1D7A-C5E7-E10C9ABA225C" name="T_SIT_Funcionario PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:25:52 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B25417F-2EA8-E9D3-B32E-0C78E493D9F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

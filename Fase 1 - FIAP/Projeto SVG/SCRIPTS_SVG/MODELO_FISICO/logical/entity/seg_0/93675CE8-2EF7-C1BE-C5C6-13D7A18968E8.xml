@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93675CE8-2EF7-C1BE-C5C6-13D7A18968E8" name="T_SVG_CATEGORIA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:17:33 UTC</createdTime>
+<comment><![CDATA[Entidade que representa a categoria de um determinado produto]]></comment>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_categoria" id="F9800213-FB74-182D-E63C-3E37D625D480">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:18:40 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria  que representa o codigo da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo e chave primaria  que representa o codigo da categoria]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_categoria" id="E0CAEED9-79F6-2EBE-5E18-790E6FC6814D">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:18:56 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que representa o nome da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que representa o nome da categoria]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_categoria" id="B16B18D2-8CE6-736C-FD12-7B309E5601D8">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:38:47 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_categoria" id="FDB425DC-CAC2-D044-B88D-DCEB81A76A35">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:19:09 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que representa o status da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que representa o status da categoria]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="954EE01A-7C14-DD89-FDF2-131433E2F5E0">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:19:26 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que representa a data de inicio da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que representa a data de inicio da categoria]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="50120673-1D67-6F3F-B5FD-B642107840AC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:19:41 UTC</createdTime>
+<comment><![CDATA[Atributo opcional  que representa a data do termino da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo opcional  que representa a data do termino da categoria]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23EDADE0-44DC-4DAB-3EBB-E93426A0A89A" name="T_SVG_CATEGORIA PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:18:45 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9800213-FB74-182D-E63C-3E37D625D480</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

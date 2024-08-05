@@ -1,0 +1,6 @@
+RN24: Todo cliente que efetua uma compra na plataforma pode deixar uma avaliação sobre o produto adquirido,
+contendo data e hora da avaliação, um comentario (opcional), e atribuindo uma pontuação de satisfação de 1 a 5 estrelas.
+Então um produto pode possuir nenhum ou várias avaliações e uma avaliação pertence a um único produto.
+ Assim como o cliente,  pode possuir nenhum ou várias avaliações e uma avaliação pertence a um único cliente
+
+Entidade Adicional: T_AVG_AVALIACAO_PRODUTO

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="38BAF7A6-CE0B-496D-9A07-7BE5EF256372" mainViewID="873EC89C-55E2-5384-1E77-DA0467B32F63">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:24:23 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

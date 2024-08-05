@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="91EC9B0D-3538-B910-6662-F120DFAB0649">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:59:59 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<sourcePk>8ED3062A-B834-EB23-B988-180A22BD2528</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E815AEB-A14E-7F44-45EB-A5388F5C4104</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E670E4C-BDC5-A5FA-6C8B-D98D708F9313</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

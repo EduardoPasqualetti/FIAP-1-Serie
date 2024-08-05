@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contem" directorySegmentName="seg_0" id="FA6A1795-62E2-E37F-7F9F-E573907AAFD3">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:32:15 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<sourcePk>88171199-D5D2-AAE3-C8C9-D6E216112CF4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5FE324D2-2D28-D95E-6502-52BB1AB93D9C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A4A5A0D-BCDD-B18A-F5AC-36A426AB83E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

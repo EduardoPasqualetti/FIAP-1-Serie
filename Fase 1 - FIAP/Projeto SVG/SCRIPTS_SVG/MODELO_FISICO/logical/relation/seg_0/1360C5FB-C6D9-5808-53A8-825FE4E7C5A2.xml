@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="serv2" directorySegmentName="seg_0" id="1360C5FB-C6D9-5808-53A8-825FE4E7C5A2">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:05:17 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<sourcePk>39BE652F-CB16-FDC5-CF83-78F5F2A7A279</sourcePk>
+<arc>5D031FA1-D73A-874C-230D-D8683864025F</arc>
+<dominantRole>05E2C773-2CC8-4B66-0876-B3501D600C77</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05E2C773-2CC8-4B66-0876-B3501D600C77</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E31364E5-DDFD-1CC1-E5BA-5782EEE59D19</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

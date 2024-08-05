@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="F787C7E6-C1B1-5003-9ACA-3B8F1405F99E" name="T_Funcionario" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C672F269-4357-1056-3EB7-67D14EDA1516" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="2A863C13-EF2F-CA66-540C-546CD83D486C" name="coordenar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="C672F269-4357-1056-3EB7-67D14EDA1516" propertySourceId="F787C7E6-C1B1-5003-9ACA-3B8F1405F99E" propertyTargetId="F787C7E6-C1B1-5003-9ACA-3B8F1405F99E"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E31364E5-DDFD-1CC1-E5BA-5782EEE59D19" name="T_SVG_PES_JURIDICA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:45:05 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o cliente caso ele seja uma pessoa juridica, recebe uma heranca da entidade cliente]]></comment>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="6DE13338-6466-E1CB-FC62-64CA0282731B">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:05:17 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria que indica o codigo do cliente]]></comment>
+<generatorID>1360C5FB-C6D9-5808-53A8-825FE4E7C5A2</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>7360C934-80F1-E131-7284-98F1568C29FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fantasia" id="7F0785D7-BD22-2D8E-CD1F-A0D399456BE1">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:00:10 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o nome fantasia do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o nome fantasia do cliente]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="B54609F7-135F-992B-462A-AE3178A084A8">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:01:10 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o cnpj do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o cnpj do cliente]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fundacao" id="273CCF83-1EF7-D143-8673-F8966BD12717">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:01:31 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o ramo de ativdade do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o ramo de ativdade do cliente]]></commentInRDBMS>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_insc_estadual" id="69132CE9-6805-4F58-7118-81BE08109878">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:09:55 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="983BA795-848D-C7B5-3EEC-404395134EBD" name="T_SVG_PES_JURIDICA PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:07:21 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DE13338-6466-E1CB-FC62-64CA0282731B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

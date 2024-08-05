@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7D66C7B-501A-D647-F23A-A61678FDAE7D" name="T_SVG_VISUALIZACAO_VIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:31:08 UTC</createdTime>
+<comment><![CDATA[Entidade que representa cada vizualizacao de um cliente em um video]]></comment>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_visualizacao" id="1E9511D5-B85B-D34C-F987-1F843A75F139">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:33:37 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_video" id="6A26A7AD-1ACC-1FB4-01E0-EEBE43C623AB">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:40:58 UTC</createdTime>
+<generatorID>EF259F99-F5EA-4B6F-736C-25B64E51AD7A</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>70613B01-E19C-23A3-D9C7-626700B8DA5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="BA816FFF-C131-8EE7-632D-FAEF3F889F6B">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:00:10 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria que indica o codigo do cliente]]></comment>
+<generatorID>F0316D9F-40C3-72C9-6FC6-6A58338E584F</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>7360C934-80F1-E131-7284-98F1568C29FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_visita" id="DCBFE2FD-29C8-DC34-38CE-4132C59C56D8">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:33:59 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBFE8F10-833D-1250-7FD4-E3F419B1B937" name="T_SVG_VISUALIZACAO_VIDEO PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:33:57 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E9511D5-B85B-D34C-F987-1F843A75F139</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CA9E8E2-0599-C5F2-DADD-33A244D9DD56" name="T_SVG_PRODUTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o produto]]></comment>
+<generatorID>27429DDF-7D3A-09E6-7F12-D020E2523CCF</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_produto" id="4F9D0E5B-8A43-5C77-75EF-6BECC2BDE596">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>BF9ECA2A-0005-C90E-23D4-2E47CB691F6A</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_categoria" id="45C13419-605F-342F-5E13-A49637D71021">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria  que representa o codigo da categoria]]></comment>
+<generatorID>554C86FC-972A-F754-15E9-A4B18FB9FBAE</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F37C672-F9AB-DDC1-863A-952FD9FE5438" referredColumn="7236BE45-809E-FE02-C8E0-BEBC4013B00A"/>
+</associations>
+</Column>
+<Column name="nm_produto" id="B218C297-36CD-FCC6-9E7A-64BA2C85ABF0">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>B004F4C4-2FE1-4E67-393C-DE435A2ED9A4</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_produto_completa" id="42E9DB39-F5DA-1549-9BF9-174AB38028DB">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>A76EF821-6692-9AA1-70AF-C04454072225</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_barras" id="B61383DD-37CA-B87C-B939-639AB2520B60">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>A03ECCBC-623F-2EE1-A945-7CFBF7547659</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_produto" id="BEDF9581-07CC-8202-4522-47AD3B2E90FC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>003BB109-0567-F464-6ED3-B14D8D8267BD</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco_unitario" id="106917E9-7D7A-3FF6-2A4A-5D988CEC0119">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>B38492EA-D630-FA64-1839-88E7532A375D</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_produto_1" id="894110CF-2E89-364D-C83C-8F95F4A75B39">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>67894B15-2ED4-480C-140C-BF73F8E69575</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_chamado" id="33693626-9482-B62F-3306-54875C363E20">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>D193B3A0-A7E4-990F-9A4F-17B7E502B2A8</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="906D4665-2CC0-7FF3-66C3-C87903496666" name="PK_SVG_PRODUTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>A9C745F6-2FE8-78A3-188F-6BC3B6CC7EC0</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F9D0E5B-8A43-5C77-75EF-6BECC2BDE596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="618F3FDA-7774-0FB0-D081-507BC255293E" name="T_SVG_PRODUTO_T_SVG_CATEGORIA_FK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>889CF4C7-76BD-783E-079C-ED07CBEF4ECF</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45C13419-605F-342F-5E13-A49637D71021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

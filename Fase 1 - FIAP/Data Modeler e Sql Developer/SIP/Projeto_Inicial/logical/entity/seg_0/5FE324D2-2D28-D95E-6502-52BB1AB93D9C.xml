@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FE324D2-2D28-D95E-6502-52BB1AB93D9C" name="T_SIT_PROJETO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:28:55 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="494704BC-7037-F1CF-3206-7776E7BD4BE9">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:29:10 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="305CDA07-AA70-E326-ADBB-BBF7A7B27E05">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:29:22 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="6B541C65-35D1-D46F-1DFD-9C24BF03A378">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:46:04 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="8FD6C4A7-92DC-F343-68FD-8A1694207F66">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:46:22 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88171199-D5D2-AAE3-C8C9-D6E216112CF4" name="T_SIT_Projeto PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:29:20 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>494704BC-7037-F1CF-3206-7776E7BD4BE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7F722AF-38EB-9ADC-7B3E-972CF0509DD0" name="T_SVG_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o cliente, na qual aplicada uma heranca para pessoa fisica e pessoa juridica]]></comment>
+<generatorID>05E2C773-2CC8-4B66-0876-B3501D600C77</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="A71E3FDB-47F1-8419-FF95-E8014F315386">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>7360C934-80F1-E131-7284-98F1568C29FF</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="23B1300E-B7A5-0031-F620-950DDBC4EB50">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>D54C3CF0-A032-DB0C-0F25-3BD960F8F5AC</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="3DEE83ED-775E-B799-F94E-771120EE5754">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>9558BA24-7952-8BE9-363A-221C3410EFEE</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="063FB047-B262-3A06-F571-D100B8D7DFFB">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>B2BCBE82-426E-B8EF-C57A-81CEC370FEAE</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_cliente" id="B5816412-BB97-86EA-87DC-ED3CF210E323">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>1B31B434-39AE-D2F3-646D-C91CC8844EB8</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="C92DC5AA-972A-339E-7388-DDDBD9491EE1">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>9EFD5FCC-0560-9904-95C9-463BF9626B83</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_estrelas" id="27B923F5-5EB0-267B-F002-18F548E1196D">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>803ABC1C-D63A-21B8-9E6A-D5BEE37819C4</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD7BE1DC-2725-E225-2413-DE36D3A12A2B" name="PK_SVG_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>39BE652F-CB16-FDC5-CF83-78F5F2A7A279</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A71E3FDB-47F1-8419-FF95-E8014F315386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46564476-9814-B498-FFED-7BEA3E154EEE" name="UN_SVG_CLIENTE_NOME">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 21:05:34 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B1300E-B7A5-0031-F620-950DDBC4EB50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

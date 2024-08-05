@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36A0F740-B98C-63BF-ED9D-AB08AA908F8E" name="T_SIP_IMPLANTACAO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>2A4A5A0D-BCDD-B18A-F5AC-36A426AB83E9</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<ordsAlias>t_sit_implantacao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="F56DF7C6-C1AD-DAE8-DA3D-89A6773B994D">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>04D69C0B-C951-D0FE-CF2F-9439E9775896</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC0CED0D-6B21-02DB-E320-B194D96798EE" referredColumn="BFF224AD-BCC8-2228-8220-15D9D26843A8"/>
+</associations>
+</Column>
+<Column name="cd_implantacao" id="C1C2E734-9F12-6CEC-B49E-18FBCE3C2C13">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>7D2C00C6-2277-1D8F-5660-586897BD711F</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="23394737-1672-B568-8AE5-704353933527">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>05F069E0-3681-F232-C892-0CF48FBD5123</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF75C2A4-AE88-6444-AAB7-0041A184E0E3" referredColumn="715AF408-D883-06A2-4F96-73BF295C5B94"/>
+</associations>
+</Column>
+<Column name="dt_entrada" id="54B7283F-0727-408A-B6A2-819166982591">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>CDA285AF-B42B-2669-1230-47A69B262693</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="51BE4253-2956-A985-BEDE-5D7483EBC02D">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>51684D5B-4FC3-C6B8-CDB8-7A2F7F3BC771</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="811DF956-D09F-86E4-FF11-822B04668CBB" name="PK_T_SIT_Implantacao">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>9BBD05A1-95B4-236A-5BD6-891235572031</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1C2E734-9F12-6CEC-B49E-18FBCE3C2C13"/>
+<colUsage columnID="F56DF7C6-C1AD-DAE8-DA3D-89A6773B994D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B309A991-2CF9-CF32-8FBD-A9A4C925F9B6" name="FK_SIP_Implant_Projeto">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>FA6A1795-62E2-E37F-7F9F-E573907AAFD3</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F56DF7C6-C1AD-DAE8-DA3D-89A6773B994D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99CD9878-44B3-3940-2B57-D07030BB3E12" name="FK_SIP_Implant_Func">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>8805F1B1-EBCB-373E-868D-D2532718824E</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23394737-1672-B568-8AE5-704353933527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIT_IMPLANT_DATA" directorySegmentName="seg_0" id="20BFC377-68CF-0D07-8A52-D0B5B367472A">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-24 00:19:56 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<rule><![CDATA[DT_SAIDA > DT_ENTRADA]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

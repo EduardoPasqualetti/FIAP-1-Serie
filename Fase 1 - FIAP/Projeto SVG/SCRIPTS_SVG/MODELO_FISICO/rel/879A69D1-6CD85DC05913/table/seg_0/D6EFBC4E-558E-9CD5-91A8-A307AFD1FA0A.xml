@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6EFBC4E-558E-9CD5-91A8-A307AFD1FA0A" name="T_SVG_SAC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o SAC, onde engloba todas as informacoes]]></comment>
+<generatorID>C3A467A9-934A-6CF8-C7A9-DE7198F23417</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_sac" id="8321387B-4FEC-D25B-7A0C-CF8F1F6E7535">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>631E6995-40E0-31D3-DE2F-24C7D2FBC597</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="A84F4432-67B0-6189-3286-E7F9AB0041EA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>4B8D452F-B60D-8262-EB29-5D12F1C2A215</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85699E1C-26B2-6743-3F10-592CB0D3791C" referredColumn="A71E3FDB-47F1-8419-FF95-E8014F315386"/>
+</associations>
+</Column>
+<Column name="cd_funcionario" id="EFC4886C-FAE3-8966-D26F-EC79D7524FE0">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>00A12F0D-C2D3-6DED-91FC-8594E9E30DDC</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A11CCDDF-3860-8275-0174-F8E6BD9E431F" referredColumn="839FBC98-5972-9EA8-7604-455F4F640B3B"/>
+</associations>
+</Column>
+<Column name="cd_produto" id="7EED7CDB-F534-575C-C58E-8C66B40253CD">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>4CF99B92-42AC-E833-4457-7C4FEC7324DE</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="913BF3FF-FB18-A7CE-D5D9-D03047F07746" referredColumn="4F9D0E5B-8A43-5C77-75EF-6BECC2BDE596"/>
+</associations>
+</Column>
+<Column name="ds_tipo_chamado" id="7DD2E9EC-7B94-F17D-77AD-085D927EDB5E">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 21:53:20 UTC</createdTime>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_chamado_abertura" id="0754C5DA-F43F-53F3-99F3-CEB8F111F689">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>B75330A2-9F4C-902E-2567-F96B066D98C0</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_hr_chamado" id="6EDABC41-4B18-F4BD-BB96-8ECAC6A2FC45">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>828FAA7E-CBC5-742D-AF93-0BFFCD36C9F6</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_chamado" id="808ED56F-A99F-5A12-83E6-6B60E32558D9">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>2B1E510A-A2A4-4EC8-1C7F-292A699920CD</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_duracao_atend_minutos" id="F370A935-F42C-1DD4-7E24-D9C7C73DD386">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>9A152205-8798-2AA2-5AD2-F29BA31160A3</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_duracao_chamado_hrs" id="8DC259F5-E382-FAD9-3081-B8867B6B6984">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>204FAB90-E52C-C3D0-52D5-29FECD3FAD47</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_hr_atend" id="C8C1AA1E-13C9-F506-830C-BE7BDCDE99E4">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>9A029A4D-B53F-B0D4-6CA0-12026ED08C44</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_chamado_retorno_func" id="A53CCDC0-57CF-108A-B279-0533F837B11E">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>170CE6B3-6839-A446-7140-9C4C3744A1AA</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_satisfacao_cliente" id="7AF81230-C425-5AF7-F76A-B627607C7AB4">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>D5C52169-7AAF-D6DB-94E1-0D33A1375D58</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E5E31BA-2395-7F4C-958F-E7AB39B332AB" name="PK_SVG_SAC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>00B9BBAE-E232-B2C5-9F3A-CA3FDB87261E</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8321387B-4FEC-D25B-7A0C-CF8F1F6E7535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ACA2521-4C09-15F8-B620-2D77F3DDA993" name="FK_SVG_SAC_PROD">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>4271CBCC-511D-D1E1-22B0-8A093AA7FD85</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EED7CDB-F534-575C-C58E-8C66B40253CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3071D034-D108-02D5-FFC4-D1620EFEF894" name="FK_SVG_SAC_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>6D3C802A-4BCE-E123-F009-95839F01AC03</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A84F4432-67B0-6189-3286-E7F9AB0041EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20A4AB18-A424-EFB8-B12B-56540DD1441D" name="FK_SVG_SAC_FUNC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>CBD39AFE-C44E-44F2-2F72-E8DCF4F599A2</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC4886C-FAE3-8966-D26F-EC79D7524FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E11C5871-5366-F885-1BF2-5109190FC623" name="T_SIP_FUNCIONARIO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>2F617FB9-8345-098E-BB10-B173C865AA0D</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<ordsAlias>t_sit_funcionario</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="715AF408-D883-06A2-4F96-73BF295C5B94">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>4B25417F-2EA8-E9D3-B32E-0C78E493D9F1</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_departamento" id="25350A00-DCAB-8DE7-1E67-EF269133D76B">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>7B61A950-2DFE-A8BF-EB71-6D65338216C0</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="348A4EEF-A957-33EF-FB17-C6C711B49281" referredColumn="7E518A58-740F-8A22-03CB-FC1363AFE65F"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="94FAD744-DB2D-D453-8813-C82EC980C21E">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>A3A2DEE2-1208-943D-9A96-5AFFEAA221B3</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="86D6C783-689F-9B51-8D36-9F214220BEDF">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>E7E50D15-A5AA-3B3D-1B00-7B28874FA75D</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="64E7DAD6-A030-4237-82D1-81AF919F6F84">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>00B4817F-9020-0E88-7A86-5F44BC148CDD</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="E4E7DEEB-8FF4-8612-B1FE-82BC8F1AF5AE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>356334C7-EA1A-1114-7C95-DBAEE2C6E546</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="421F23BD-FDE4-40EE-AC34-B82D0102C6AB">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>DF456922-C4FB-3A01-8906-A8881C0A9AAA</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2254DCDE-AC82-734D-D686-73D03DEB3297" name="PK_T_SIP_Funcionario">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>682146F3-EC24-1D7A-C5E7-E10C9ABA225C</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="715AF408-D883-06A2-4F96-73BF295C5B94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF3BFEFD-EBA7-D91F-4C08-39116517542A" name="FK_SIP_Func_Depto">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>015355A7-FCEA-A3AB-255F-A5553EB15538</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25350A00-DCAB-8DE7-1E67-EF269133D76B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIT_FUNC_SALARIO" directorySegmentName="seg_0" id="C01FAF84-1D5D-8B1E-37B1-81D8D85BFD95">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-24 00:17:13 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<rule><![CDATA[VL_SALARIO >= 1.412]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

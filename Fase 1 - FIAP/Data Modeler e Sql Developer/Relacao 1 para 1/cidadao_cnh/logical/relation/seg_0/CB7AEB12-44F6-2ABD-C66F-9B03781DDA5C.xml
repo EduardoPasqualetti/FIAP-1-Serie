@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuir" directorySegmentName="seg_0" id="CB7AEB12-44F6-2ABD-C66F-9B03781DDA5C">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 22:59:15 UTC</createdTime>
+<ownerDesignName>cidadao_cnh</ownerDesignName>
+<engineerTo>
+<item key="717C3ADC-A5F6-859F-F55D-35DBD5CDC3EC" value="true"/>
+</engineerTo>
+<sourcePk>ECEE57FA-3F2B-5C06-889B-A40DB4DDFB67</sourcePk>
+<dominantRole>16C0DCF7-638C-41EC-09FC-57BDA653461E</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>16C0DCF7-638C-41EC-09FC-57BDA653461E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0BEA2D9A-DAF5-D390-8D3E-E97424BB31AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

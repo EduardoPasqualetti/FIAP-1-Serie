@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO_LOGICO" id="F70396C1-EAD2-50E6-9782-8710A2986FB0" version="3.5">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:12:11 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F70396C1-EAD2-50E6-9782-8710A2986FB0</designId>
+</OSDM_Design>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67B53D92-89B9-E992-0397-9AF27BE87B59" name="T_SVG_VISUALIZACAO_VIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa cada vizualizacao de um cliente em um video]]></comment>
+<generatorID>B7D66C7B-501A-D647-F23A-A61678FDAE7D</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_visualizacao" id="D91BC579-AD40-1168-E9DA-74E640B8D226">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>1E9511D5-B85B-D34C-F987-1F843A75F139</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_video" id="27A51AD4-081E-DD1A-8005-9D542122576B">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>6A26A7AD-1ACC-1FB4-01E0-EEBE43C623AB</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DB816F5-9F69-068B-8A2B-2E67909EF066" referredColumn="DE5C0D35-1B1D-050C-14A3-B4DFD38512D4"/>
+</associations>
+</Column>
+<Column name="cd_cliente" id="F0DF5BE3-C6FB-B246-756F-2FCAC63A16EE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>BA816FFF-C131-8EE7-632D-FAEF3F889F6B</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D93DECBF-EE72-12E4-255C-BD0E5AE33A50" referredColumn="A71E3FDB-47F1-8419-FF95-E8014F315386"/>
+</associations>
+</Column>
+<Column name="dt_hr_visita" id="8B40EAC9-AEB0-8C62-16A7-57372F472709">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>DCBFE2FD-29C8-DC34-38CE-4132C59C56D8</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A49DA52D-A855-1345-D6E0-F7C13D0307DA" name="PK_SVG_VISUALIZACAO_VIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>CBFE8F10-833D-1250-7FD4-E3F419B1B937</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91BC579-AD40-1168-E9DA-74E640B8D226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAE8A3CC-4A76-4A77-A41B-9E6A9187DC4E" name="FK_SVG_VIZUVIDEO_VIDEO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>EF259F99-F5EA-4B6F-736C-25B64E51AD7A</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27A51AD4-081E-DD1A-8005-9D542122576B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DE1BF74-28C5-BBDF-4B35-679970D9FC1F" name="FK_SVG_VIZUVIDEO_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>F0316D9F-40C3-72C9-6FC6-6A58338E584F</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0DF5BE3-C6FB-B246-756F-2FCAC63A16EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

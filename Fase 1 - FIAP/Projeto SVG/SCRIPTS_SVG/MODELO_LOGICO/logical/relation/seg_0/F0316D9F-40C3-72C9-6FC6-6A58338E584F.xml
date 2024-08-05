@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="realizou" directorySegmentName="seg_0" id="F0316D9F-40C3-72C9-6FC6-6A58338E584F">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:00:10 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<sourcePk>39BE652F-CB16-FDC5-CF83-78F5F2A7A279</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05E2C773-2CC8-4B66-0876-B3501D600C77</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7D66C7B-501A-D647-F23A-A61678FDAE7D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

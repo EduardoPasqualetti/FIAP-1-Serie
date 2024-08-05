@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFC6D042-9B1E-A13B-BE05-FEE41D66A259" containerWithKeyObject="C5258E2B-8B0A-ACF8-1196-A09CC54FF779" localFKIndex="E98079EA-2688-C657-FD83-4D460AA4FDD2" name="FK_SVG_FUNC_DEPTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>91EC9B0D-3538-B910-6662-F120DFAB0649</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<referredTableLongName>T_SVG_DEPARTAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A286DDAA-8811-A338-3E73-11CCFBA72520</referredTableID>
+<keyObject>2611EF7B-4F4A-9B5E-B8F6-3B7A9B68585C</keyObject>
+<referredKeyID>2611EF7B-4F4A-9B5E-B8F6-3B7A9B68585C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_depto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

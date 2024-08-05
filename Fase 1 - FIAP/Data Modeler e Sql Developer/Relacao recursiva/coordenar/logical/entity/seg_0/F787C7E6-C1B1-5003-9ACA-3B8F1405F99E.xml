@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F787C7E6-C1B1-5003-9ACA-3B8F1405F99E" name="T_Funcionario">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:02:31 UTC</createdTime>
+<ownerDesignName>coordenar</ownerDesignName>
+<engineerTo>
+<item key="8CB9884D-828A-9D02-4CEC-8D943C600138" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_funcionario" id="90C385C1-361D-54F0-03FE-5DA323E239F3">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:03:16 UTC</createdTime>
+<ownerDesignName>coordenar</ownerDesignName>
+<engineerTo>
+<item key="8CB9884D-828A-9D02-4CEC-8D943C600138" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_funcionario1" id="7BCAEC91-7A16-AFC3-F5B6-117F0848919D">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:07:05 UTC</createdTime>
+<generatorID>2A863C13-EF2F-CA66-540C-546CD83D486C</generatorID>
+<ownerDesignName>coordenar</ownerDesignName>
+<engineerTo>
+<item key="8CB9884D-828A-9D02-4CEC-8D943C600138" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>90C385C1-361D-54F0-03FE-5DA323E239F3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="E0EB249C-D5FE-AC0A-E891-4D9E2F0A60B6">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:03:27 UTC</createdTime>
+<ownerDesignName>coordenar</ownerDesignName>
+<engineerTo>
+<item key="8CB9884D-828A-9D02-4CEC-8D943C600138" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="57415AA5-F186-C790-3436-4F2CE8690D08">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:03:33 UTC</createdTime>
+<ownerDesignName>coordenar</ownerDesignName>
+<engineerTo>
+<item key="8CB9884D-828A-9D02-4CEC-8D943C600138" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80F2B32A-6DC8-ACE2-8EB0-90A7D33452DB" name="T_Funcionario PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:03:24 UTC</createdTime>
+<ownerDesignName>coordenar</ownerDesignName>
+<engineerTo>
+<item key="8CB9884D-828A-9D02-4CEC-8D943C600138" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90C385C1-361D-54F0-03FE-5DA323E239F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

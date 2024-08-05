@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="associado" directorySegmentName="seg_0" id="4271CBCC-511D-D1E1-22B0-8A093AA7FD85">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:59:08 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<sourcePk>A9C745F6-2FE8-78A3-188F-6BC3B6CC7EC0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27429DDF-7D3A-09E6-7F12-D020E2523CCF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3A467A9-934A-6CF8-C7A9-DE7198F23417</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

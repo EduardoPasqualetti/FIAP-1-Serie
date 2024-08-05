@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="697AA5B0-44F8-6B87-3738-F0FDDA8C9E38" name="T_SVG_CATEGORIA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa a categoria de um determinado produto]]></comment>
+<generatorID>93675CE8-2EF7-C1BE-C5C6-13D7A18968E8</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categoria" id="7236BE45-809E-FE02-C8E0-BEBC4013B00A">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria  que representa o codigo da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo e chave primaria  que representa o codigo da categoria]]></commentInRDBMS>
+<generatorID>F9800213-FB74-182D-E63C-3E37D625D480</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_categoria" id="4E5142AE-802D-7B5E-3FB3-AC524C513637">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que representa o nome da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que representa o nome da categoria]]></commentInRDBMS>
+<generatorID>E0CAEED9-79F6-2EBE-5E18-790E6FC6814D</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categoria" id="E7B67294-14C6-E46D-EBE4-949A6E6E5FD0">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>B16B18D2-8CE6-736C-FD12-7B309E5601D8</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_categoria" id="367872FC-74AE-4FDC-62BE-C67713062F83">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que representa o status da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que representa o status da categoria]]></commentInRDBMS>
+<generatorID>FDB425DC-CAC2-D044-B88D-DCEB81A76A35</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="B4ED195F-40AD-1B85-E646-BDB1A49C53B1">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que representa a data de inicio da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que representa a data de inicio da categoria]]></commentInRDBMS>
+<generatorID>954EE01A-7C14-DD89-FDF2-131433E2F5E0</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="BA8785CC-CAF5-7C53-C498-00A9FF4C1A3E">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo opcional  que representa a data do termino da categoria]]></comment>
+<commentInRDBMS><![CDATA[Atributo opcional  que representa a data do termino da categoria]]></commentInRDBMS>
+<generatorID>50120673-1D67-6F3F-B5FD-B642107840AC</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D365482A-A55E-E7BA-2C4D-A99DEBBF88AA" name="PK_SVG_CATEGORIA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>23EDADE0-44DC-4DAB-3EBB-E93426A0A89A</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7236BE45-809E-FE02-C8E0-BEBC4013B00A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

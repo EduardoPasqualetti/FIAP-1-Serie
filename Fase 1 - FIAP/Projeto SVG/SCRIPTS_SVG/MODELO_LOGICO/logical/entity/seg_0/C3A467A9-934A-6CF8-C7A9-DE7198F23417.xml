@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3A467A9-934A-6CF8-C7A9-DE7198F23417" name="T_SVG_SAC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:39:59 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o SAC, onde engloba todas as informacoes]]></comment>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_sac" id="631E6995-40E0-31D3-DE2F-24C7D2FBC597">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:40:08 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="4B8D452F-B60D-8262-EB29-5D12F1C2A215">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:46:24 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria que indica o codigo do cliente]]></comment>
+<generatorID>6D3C802A-4BCE-E123-F009-95839F01AC03</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>7360C934-80F1-E131-7284-98F1568C29FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_funcionario" id="00A12F0D-C2D3-6DED-91FC-8594E9E30DDC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:50:21 UTC</createdTime>
+<generatorID>CBD39AFE-C44E-44F2-2F72-E8DCF4F599A2</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>DBCBAEB1-996F-742B-54F0-AC7F594104ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="4CF99B92-42AC-E833-4457-7C4FEC7324DE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:59:08 UTC</createdTime>
+<generatorID>4271CBCC-511D-D1E1-22B0-8A093AA7FD85</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<referedAttribute>BF9ECA2A-0005-C90E-23D4-2E47CB691F6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_chamado_abertura" id="B75330A2-9F4C-902E-2567-F96B066D98C0">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:40:33 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_chamado" id="828FAA7E-CBC5-742D-AF93-0BFFCD36C9F6">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:42:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_atend" id="9A029A4D-B53F-B0D4-6CA0-12026ED08C44">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:48:38 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_duracao_atend_minutos" id="9A152205-8798-2AA2-5AD2-F29BA31160A3">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:43:26 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_chamado_retorno_func" id="170CE6B3-6839-A446-7140-9C4C3744A1AA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:44:54 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_satisfacao_cliente" id="D5C52169-7AAF-D6DB-94E1-0D33A1375D58">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:53:44 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_duracao_total_chamado" id="204FAB90-E52C-C3D0-52D5-29FECD3FAD47">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:55:36 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_chamado" id="2B1E510A-A2A4-4EC8-1C7F-292A699920CD">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 22:52:36 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00B9BBAE-E232-B2C5-9F3A-CA3FDB87261E" name="T_SVG_SAC PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 23:40:32 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>631E6995-40E0-31D3-DE2F-24C7D2FBC597</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

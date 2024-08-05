@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80F795FD-A70B-0E12-B056-DBC1BF4C936B" name="T_SVG_PES_FISICA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o cliente caso ele seja uma pessoa fisica, recebe uma heranca da entidade cliente]]></comment>
+<generatorID>11C113A3-EB87-3434-0E20-674B7210118E</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="F3D87B51-59F9-801B-56B3-6609AC7CB792">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria que indica o codigo do cliente]]></comment>
+<generatorID>0D1F1852-4611-D4AB-F084-64809E7DE403</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7E1D5D3-6A28-EB6A-D334-6A187AB68E7F" referredColumn="A71E3FDB-47F1-8419-FF95-E8014F315386"/>
+</associations>
+</Column>
+<Column name="nr_cpf" id="52B7A849-BE54-B097-B70D-DCD568ECA6F0">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o cpf do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o cpf do cliente]]></commentInRDBMS>
+<generatorID>38D1FA9E-959E-531D-A292-72DC6BBBF83B</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="3F933CF0-C49E-1BDB-CD71-DAD5BA72A472">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa a data de nascimento do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa a data de nascimento do cliente]]></commentInRDBMS>
+<generatorID>B31391B8-81E3-379F-47ED-47A31E1F261D</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo_biologico" id="DF16AEAE-AD7C-888C-3310-8A06121E9376">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o sexo biologico  do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o sexo biologico  do cliente]]></commentInRDBMS>
+<generatorID>DDF8F0BC-41F2-E88D-2E19-5ADE764E3EA5</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_genero" id="C640C9E4-D1FC-DA97-6437-B00B9C5A51E9">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<comment><![CDATA[Atributo que representa o genero do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo que representa o genero do cliente]]></commentInRDBMS>
+<generatorID>F58ABE49-5192-77BA-67A3-186BF3F0914D</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B00733A2-1D24-066A-D712-2B3DD8A98814" name="PK_SVG_PES_FISICA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>8339336D-507C-26B3-A56B-0AFABCC8DC13</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3D87B51-59F9-801B-56B3-6609AC7CB792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0E4FFB0-5B8F-F178-95EB-DA044D24061D" name="FK_SVG_PESFIS_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>023EA86B-B7EB-85DA-2F82-C681FE17B6E3</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3D87B51-59F9-801B-56B3-6609AC7CB792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

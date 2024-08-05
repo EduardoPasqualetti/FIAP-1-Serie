@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F7ECA35-980F-D66E-A83B-D3D0258C74D7" containerWithKeyObject="5CDA61FC-B4CF-A95E-93F9-C60B5642697C" localFKIndex="B48A8D23-ED00-0E3F-3F5D-C552BAA1EAF2" name="FK_SVG_PESJUR_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>1360C5FB-C6D9-5808-53A8-825FE4E7C5A2</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<referredTableLongName>T_SVG_CLIENTE</referredTableLongName>
+<arc>46A4B9B2-ED07-BD83-1656-A127F21DC0D1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7F722AF-38EB-9ADC-7B3E-972CF0509DD0</referredTableID>
+<keyObject>BD7BE1DC-2725-E225-2413-DE36D3A12A2B</keyObject>
+<referredKeyID>BD7BE1DC-2725-E225-2413-DE36D3A12A2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

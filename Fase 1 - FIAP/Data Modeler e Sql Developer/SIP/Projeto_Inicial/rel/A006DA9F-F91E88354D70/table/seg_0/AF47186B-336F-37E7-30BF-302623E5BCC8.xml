@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF47186B-336F-37E7-30BF-302623E5BCC8" name="T_SIP_DEPARTAMENTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>C104F0A5-3620-9C47-665C-3AF853207210</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<ordsAlias>t_sit_departamento</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_departamento" id="7E518A58-740F-8A22-03CB-FC1363AFE65F">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>FA1B2749-FFF6-85AF-870C-AE64C650C2F7</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_departamento" id="367233DE-EC48-45E0-9A2F-D506AA9DA6A6">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>4D02479F-5468-8BF2-50D1-2860C2D0B554</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_departamento" id="9F074F72-3A2F-3D46-FDC0-FB16B8E8B429">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>998E6575-9DD1-75F9-5D68-1A124E71FC6F</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE2796EF-B501-CCCD-AB22-58BBE802BC76" name="PK_T_SIP_Departamento">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>58700309-C922-5E5C-C0E4-A3A83662D07F</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E518A58-740F-8A22-03CB-FC1363AFE65F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EC7D1F6-6C82-BDC4-EEDB-F9EDEFA101B6" name="UN_SIP_DEPTO_NOME">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-24 00:14:10 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="367233DE-EC48-45E0-9A2F-D506AA9DA6A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4291312-3546-9E3C-6B66-F6318C5A500E" name="UN_SIP_DEPTO_SIGLA">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-24 00:14:53 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F074F72-3A2F-3D46-FDC0-FB16B8E8B429"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

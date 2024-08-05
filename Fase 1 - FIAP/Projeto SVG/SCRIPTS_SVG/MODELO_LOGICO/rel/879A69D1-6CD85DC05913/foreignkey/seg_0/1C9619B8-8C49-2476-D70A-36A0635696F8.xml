@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C9619B8-8C49-2476-D70A-36A0635696F8" containerWithKeyObject="3DFF566D-6A74-87D5-455C-32F7D508BC9D" localFKIndex="2AEAE459-311E-56C2-ED29-EF747A5C3803" name="FK_SVG_VIDEO_PRODUTO">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>8BE6E8B6-CC9A-1D04-1BF5-90677F465884</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<referredTableLongName>T_SVG_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8CA9E8E2-0599-C5F2-DADD-33A244D9DD56</referredTableID>
+<keyObject>906D4665-2CC0-7FF3-66C3-C87903496666</keyObject>
+<referredKeyID>906D4665-2CC0-7FF3-66C3-C87903496666</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

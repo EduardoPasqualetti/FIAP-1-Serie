@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D93DECBF-EE72-12E4-255C-BD0E5AE33A50" containerWithKeyObject="67B53D92-89B9-E992-0397-9AF27BE87B59" localFKIndex="4DE1BF74-28C5-BBDF-4B35-679970D9FC1F" name="FK_SVG_VIZUVIDEO_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>F0316D9F-40C3-72C9-6FC6-6A58338E584F</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<referredTableLongName>T_SVG_CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7F722AF-38EB-9ADC-7B3E-972CF0509DD0</referredTableID>
+<keyObject>BD7BE1DC-2725-E225-2413-DE36D3A12A2B</keyObject>
+<referredKeyID>BD7BE1DC-2725-E225-2413-DE36D3A12A2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

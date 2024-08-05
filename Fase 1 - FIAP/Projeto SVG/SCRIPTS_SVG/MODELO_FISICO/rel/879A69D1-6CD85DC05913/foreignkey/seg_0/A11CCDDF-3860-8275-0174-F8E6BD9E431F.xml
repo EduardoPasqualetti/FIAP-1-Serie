@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A11CCDDF-3860-8275-0174-F8E6BD9E431F" containerWithKeyObject="D6EFBC4E-558E-9CD5-91A8-A307AFD1FA0A" localFKIndex="20A4AB18-A424-EFB8-B12B-56540DD1441D" name="FK_SVG_SAC_FUNC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>CBD39AFE-C44E-44F2-2F72-E8DCF4F599A2</generatorID>
+<ownerDesignName>MODELO_FISICO</ownerDesignName>
+<referredTableLongName>T_SVG_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5258E2B-8B0A-ACF8-1196-A09CC54FF779</referredTableID>
+<keyObject>9F64217F-D994-C285-44EB-FD0AF1BED547</keyObject>
+<referredKeyID>9F64217F-D994-C285-44EB-FD0AF1BED547</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

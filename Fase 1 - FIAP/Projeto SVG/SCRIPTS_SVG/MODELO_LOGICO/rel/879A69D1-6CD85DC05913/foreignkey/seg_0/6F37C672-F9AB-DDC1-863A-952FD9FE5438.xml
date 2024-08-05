@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F37C672-F9AB-DDC1-863A-952FD9FE5438" containerWithKeyObject="8CA9E8E2-0599-C5F2-DADD-33A244D9DD56" localFKIndex="618F3FDA-7774-0FB0-D081-507BC255293E" name="T_SVG_PRODUTO_T_SVG_CATEGORIA_FK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-14 01:19:07 UTC</createdTime>
+<generatorID>889CF4C7-76BD-783E-079C-ED07CBEF4ECF</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<referredTableLongName>T_SVG_CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>697AA5B0-44F8-6B87-3738-F0FDDA8C9E38</referredTableID>
+<keyObject>D365482A-A55E-E7BA-2C4D-A99DEBBF88AA</keyObject>
+<referredKeyID>D365482A-A55E-E7BA-2C4D-A99DEBBF88AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

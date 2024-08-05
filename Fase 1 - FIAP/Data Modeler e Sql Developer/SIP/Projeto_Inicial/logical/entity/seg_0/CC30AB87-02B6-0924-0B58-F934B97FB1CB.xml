@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC30AB87-02B6-0924-0B58-F934B97FB1CB" name="T_SIT_DEPENDENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:26:51 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="13CECCEC-15DE-1421-8B17-24F1A4BB6BAE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:27:03 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="96F4A72A-ED2C-DB25-AB02-64D1118F53CE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:27:15 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="BB405CA0-9264-BE28-F1EC-A64A9EBF8557">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:41:56 UTC</createdTime>
+<generatorID>5426D52D-E010-8DBA-7A5B-2E3CFFD6A47F</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<referedAttribute>4B25417F-2EA8-E9D3-B32E-0C78E493D9F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="80BC19F1-642E-2591-1547-56A8A38B5820">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:45:23 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60F35FAF-3302-A060-7B0C-BFAE1A59EAA4" name="T_SIT_Dependente PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:27:13 UTC</createdTime>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A006DA9F-A2A2-5123-AD3F-F91E88354D70" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13CECCEC-15DE-1421-8B17-24F1A4BB6BAE</attributeRef>
+<attributeRef>BB405CA0-9264-BE28-F1EC-A64A9EBF8557</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

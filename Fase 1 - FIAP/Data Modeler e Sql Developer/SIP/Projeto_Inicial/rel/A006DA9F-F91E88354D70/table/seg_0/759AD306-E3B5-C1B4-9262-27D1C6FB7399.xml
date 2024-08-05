@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="759AD306-E3B5-C1B4-9262-27D1C6FB7399" name="T_SIP_DEPENDENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>CC30AB87-02B6-0924-0B58-F934B97FB1CB</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<ordsAlias>t_sit_dependente</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dependente" id="B3875DEB-CFCD-7308-4BB3-BA746F1999F7">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>13CECCEC-15DE-1421-8B17-24F1A4BB6BAE</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dependente" id="B4A742E0-25C2-AAE1-7B0B-8FAC3C854016">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>96F4A72A-ED2C-DB25-AB02-64D1118F53CE</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="D8669FAD-D3F6-14B2-D5AD-AD46ECBF10F5">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>BB405CA0-9264-BE28-F1EC-A64A9EBF8557</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24F5E670-B079-872D-D1BC-71F7BA3DDC7C" referredColumn="715AF408-D883-06A2-4F96-73BF295C5B94"/>
+</associations>
+</Column>
+<Column name="dt_nascimento" id="37F76B16-50AE-C240-550F-ADB7A9FEC8A6">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>80BC19F1-642E-2591-1547-56A8A38B5820</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ACE05F8-B85B-A7E8-3914-5D591AEDB085" name="PK_T_SIP_Dependente">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>60F35FAF-3302-A060-7B0C-BFAE1A59EAA4</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3875DEB-CFCD-7308-4BB3-BA746F1999F7"/>
+<colUsage columnID="D8669FAD-D3F6-14B2-D5AD-AD46ECBF10F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="108C3D1C-E5D9-3BE8-89E8-72131DEEC10F" name="FK_SIP_Dependente_Func">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-02-23 23:55:40 UTC</createdTime>
+<generatorID>5426D52D-E010-8DBA-7A5B-2E3CFFD6A47F</generatorID>
+<ownerDesignName>Projeto_Inicial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8669FAD-D3F6-14B2-D5AD-AD46ECBF10F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

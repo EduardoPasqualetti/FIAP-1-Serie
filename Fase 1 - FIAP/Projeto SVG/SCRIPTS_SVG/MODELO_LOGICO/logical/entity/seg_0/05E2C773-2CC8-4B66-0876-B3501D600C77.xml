@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05E2C773-2CC8-4B66-0876-B3501D600C77" name="T_SVG_CLIENTE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:13:44 UTC</createdTime>
+<comment><![CDATA[Entidade que representa o cliente, na qual aplicada uma heranca para pessoa fisica e pessoa juridica]]></comment>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="7360C934-80F1-E131-7284-98F1568C29FF">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:16:21 UTC</createdTime>
+<comment><![CDATA[Atributo e chave primaria que indica o codigo do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo e chave primaria que indica o codigo do cliente]]></commentInRDBMS>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="D54C3CF0-A032-DB0C-0F25-3BD960F8F5AC">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:16:46 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que correspondente ao nome do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que correspondente ao nome do cliente]]></commentInRDBMS>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="9558BA24-7952-8BE9-363A-221C3410EFEE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:41:22 UTC</createdTime>
+<comment><![CDATA[Atributo obrigatorio que correspondente ao email do cliente]]></comment>
+<commentInRDBMS><![CDATA[Atributo obrigatorio que correspondente ao email do cliente]]></commentInRDBMS>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="B2BCBE82-426E-B8EF-C57A-81CEC370FEAE">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:07:42 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_login" id="1B31B434-39AE-D2F3-646D-C91CC8844EB8">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 00:44:56 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="9EFD5FCC-0560-9904-95C9-463BF9626B83">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:03:17 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_estrelas" id="803ABC1C-D63A-21B8-9E6A-D5BEE37819C4">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-13 23:05:56 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39BE652F-CB16-FDC5-CF83-78F5F2A7A279" name="T_SVG_CLIENTE PK">
+<createdBy>yeldg</createdBy>
+<createdTime>2024-03-12 22:16:42 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="879A69D1-1DCC-6471-F348-6CD85DC05913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7360C934-80F1-E131-7284-98F1568C29FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
