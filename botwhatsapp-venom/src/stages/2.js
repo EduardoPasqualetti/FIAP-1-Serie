@@ -44,7 +44,7 @@ const options = {
   '#': () => {
     const message =
       '🗺️ Agora, informe o *ENDEREÇO*. \n ( ```Rua, Número, Bairro``` ) \n\n ' +
-      '\n-----------------------------------\n*️⃣ - ```CANCELAR pedido```'
+      '\n-----------------------------------\n*️⃣ - ```CANCELAR atendimento```'
 
     return {
       message,

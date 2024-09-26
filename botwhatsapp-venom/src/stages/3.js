@@ -4,14 +4,8 @@ import { STAGES } from './index.js'
 import oracledb from 'oracledb';
 import dbconfig from '../dbconfig.js';
 
-
-// Configurações de conexão com o Oracle
-
-
-// Função para inserir os dados no banco de dados Oracle
 async function insertIntoDatabase(problem, address, protocolNumber, phone) {
   let connection;
-  
   try {
     connection = await oracledb.getConnection(dbconfig);
     const result = await connection.execute(
@@ -22,10 +16,8 @@ async function insertIntoDatabase(problem, address, protocolNumber, phone) {
         address: address,
         protocolNumber: protocolNumber,
         phone: phone,
-      },
-      { autoCommit: true } // Commit automático para salvar os dados
+      }
     );
-    
     console.log('Dados inseridos no banco de dados com sucesso!', result);
   } catch (err) {
     console.error('Erro ao inserir dados no banco de dados:', err);
